@@ -1,4 +1,4 @@
-# todo-static-website-s3
+# Create a to-do list with S3!
 AWS S3 Static Website To-Do List
 
 This is just a project I made for fun.
