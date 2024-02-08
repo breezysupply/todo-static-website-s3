@@ -12,7 +12,7 @@ Follow these easy steps:
 1. Login or sign-up for an AWS Account: https://aws.amazon.com/console/
 2. Navigate to the S3 service
 3. Create a bucket
-4. Add the files in this repository: `index.html`, `script.js`, and `styles.css`.
+4. Upload the files in this repository: `index.html`, `script.js`, and `styles.css` to your bucket.
 5. Enable Static website hosting by going to the Properties tab, scrolling to the bottom, hit "Edit" on the `Static website hosting` section, Toggle `Enable`, ensure `Host a static website` is selected, under the `Index document` field, type `index.html`, and click the `Save Changes` button
 6. Enable public access to the bucket to allow it others to view the website. To do this, navigate to the `Permissions` tab, click `Edit` to the right of the `Block public access (bucket settings` section, uncheck `Block all public access`, and save changes. Please do NOT include files or information that you do not want to be publicly available.
 7. Create a bucket policy to allow public read access to your website. Under the `Permissions` tab, click the `Edit` button next to the `Bucket Policy` section.
